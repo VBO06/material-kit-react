@@ -21,80 +21,138 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import RotatingCard from "examples/Cards/RotatingCard";
-import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-
-// Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import image from "../../../assets/images/beaute.jpg";
+import natural from "../../../assets/images/natural-young-woman-portrait.jpg";
+import young from "../../../assets/images/young-beautiful-model-posing.jpg";
 
 function Information() {
   return (
     <MKBox component="section" py={6} my={6}>
       <Container>
-        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
+        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto", mb: 8 }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <RotatingCard>
-              <RotatingCardFront
-                image={bgFront}
-                icon="touch_app"
-                title={
-                  <>
-                    Feel the
-                    <br />
-                    Material Kit
-                  </>
-                }
-                description="All the MUI components that you need in a development have been re-design with the new look."
-              />
-              <RotatingCardBack
-                image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
-                action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
-                }}
-              />
-            </RotatingCard>
+            <img src={image} alt="Descriptive alt text" style={{ width: "100%", height: "auto" }} />
           </Grid>
           <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
             <Grid container spacing={3}>
-              <Grid item xs={12} md={6}>
+              <Grid item xs={12} md={12}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="LA MEDECINE ESTHÉTIQUE C'EST QUOI ?"
+                  description="Avec l'âge, la qualité et l’aspect de la peau s’altèrent, la silhouette se modifie et l’apparence s’en trouve changée. Il s’agit d’un phénomène naturel que l’on ne peut stopper mais que l’on peut ralentir, retarder et partiellement corriger. La médecine esthétique vise à améliorer l’esthétique du patient sur différentes parties de son corps selon ses besoins sans intervention chirurgicale."
                 />
               </Grid>
             </Grid>
-            <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
-              <Grid item xs={12} md={6}>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto", mb: 8 }}>
+          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={12}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
-                />
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="content_copy"
+                  title="MEDAZUR ESTHÉTIQUE C'EST :"
+                  description={
+                    <div style={{ textAlign: "left" }}>
+                      <p>
+                        <b>UNE PHILOSOPHIE</b> : l’harmonie. Il s’agit de créer une harmonie entre
+                        l’image que vous voulez dégager, les spécificités de la physionomie de votre
+                        visage et de votre silhouette, les caractéristiques de vos tissus cutanés et
+                        adipeux, le respect de la symétrie et des proportions pour un résultat
+                        naturel et équilibré.
+                      </p>
+                      <br></br>
+                      <p>
+                        <b>UN LEITMOTIV</b> : Le respect de vos traits naturels. Ils vous
+                        définissent et doivent toujours être respectés. Il faut donc les sublimer
+                        tout en gardant
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        l'unité de votre beauté. La standardisation est proscrite : les visages
+                        figés, pommettes massives ainsi que les lèvres disproportionnées sont
+                        rejetés.
+                      </p>
+                      <br></br>
+                      <p>
+                        <b>UN OBJECTIF</b> : une amélioration de votre esthétique par stimulation de
+                        vos propres cellules pour une meilleure qualité de votre tissu cutané de
+                        façon efficace et durable.
+                      </p>
+                      <br></br>
+                      <p>
+                        <b>UNE PRISE EN CHARGE GLOBALE</b> du patient à visée anti-âge qui prend en
+                        compte la santé globale psychologique et physiologique, ses aspects
+                        nutritionnels et hormonaux afin de prévenir, cibler et traiter de
+                        l’intérieur et de l’extérieur les signes de vieillissement cutané pour bien
+                        vieillir (rides, ridules, relâchement cutané, acné, dilatation des pores,
+                        tâches pigmentaires, tâches vasculaires, cellulite etc.)
+                      </p>
+                      <br></br>
+                      <p>
+                        <b>UNE PRISE EN CHARGE SUR MESURE</b> : un programme de soin personnalisé
+                        pouvant cumuler différents soins de médecine esthétique sera proposé.
+                      </p>
+                    </div>
+                  }
                 />
               </Grid>
             </Grid>
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <img
+              src={natural}
+              alt="Descriptive alt text"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto", mb: 8 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <img src={young} alt="Descriptive alt text" style={{ width: "100%", height: "auto" }} />
+          </Grid>
+          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={12}>
+                <DefaultInfoCard
+                  icon="content_copy"
+                  title="DES MÉTHODES DE SOIN MÉTICULEUSEMENT CHOISIES"
+                  description="les moins invasives possibles
+-          avec le moins de risques d’effets indésirables
+-          qui nécessitent si nécessaire un temps d’éviction sociale le plus minime
+·         Des appareils récents à usage médical qui garantissent efficacité et sécurité
+·         Un recours aux injections d’acide hyaluronique, de botox et de stimulants cutanés injectables qui se voudra mesurer quand nécessaire
+"
+                />
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto", mb: 8 }}>
+          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={12}>
+                <DefaultInfoCard
+                  icon="content_copy"
+                  title="DES FACILITES DE PAIEMENT"
+                  description={
+                    <div style={{ textAlign: "left" }}>
+                      <p>* Soins à la carte</p>
+                      <p>
+                        * Pour un forfait plusieurs soins de médecine esthétique peuvent être
+                        associés pour un résultat optimal
+                      </p>
+                      <p>* Paiement au forfait possible d’où un coût par séance réduit</p>
+                      <p>* Paiement en plusieurs fois possible pour les forfaits</p>
+                      {/* eslint-disable-next-line react/no-unescaped-entities */}
+                      <p>* Possibilité de basculer sur un forfait même après 3 séances d'un soin</p>
+                    </div>
+                  }
+                />
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <img src={young} alt="Descriptive alt text" style={{ width: "100%", height: "auto" }} />
           </Grid>
         </Grid>
       </Container>

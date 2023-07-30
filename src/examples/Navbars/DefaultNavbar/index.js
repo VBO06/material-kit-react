@@ -43,6 +43,8 @@ import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMob
 // Material Kit 2 React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
+// import logo from "../../../assets/images/logos/MedazurEsthetique.png";
+
 function DefaultNavbar({ brand, routes, transparent, light, action, sticky, relative, center }) {
   const [dropdown, setDropdown] = useState("");
   const [dropdownEl, setDropdownEl] = useState("");
@@ -213,6 +215,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             display="flex"
             justifyContent="space-between"
             alignItems="center"
+            flexGrow={1}
             variant="button"
             textTransform="capitalize"
             minWidth={item.description ? "14rem" : "12rem"}
@@ -551,13 +554,13 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Material Kit 2",
+  brand: "",
   transparent: false,
   light: false,
   action: false,
   sticky: false,
   relative: false,
-  center: false,
+  center: true,
 };
 
 // Typechecking props for the DefaultNavbar

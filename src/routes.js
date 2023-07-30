@@ -40,7 +40,7 @@ Coded by www.creative-tim.com
 import Icon from "@mui/material/Icon";
 
 // @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
+//import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
@@ -108,12 +108,12 @@ const routes = [
     ],
   },
   {
-    name: "sections",
+    name: "Forfaits",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "page sections",
-        description: "See all sections",
+        name: "Epilation",
+        description: " ",
         dropdown: true,
         collapse: [
           {
@@ -129,8 +129,8 @@ const routes = [
         ],
       },
       {
-        name: "navigation",
-        description: "See all navigations",
+        name: "Rides / Relâchement cutané",
+        description: " ",
         dropdown: true,
         collapse: [
           {
@@ -151,8 +151,8 @@ const routes = [
         ],
       },
       {
-        name: "input areas",
-        description: "See all input areas",
+        name: "Remodelage",
+        description: " ",
         dropdown: true,
         collapse: [
           {
@@ -168,8 +168,8 @@ const routes = [
         ],
       },
       {
-        name: "attention catchers",
-        description: "See all examples",
+        name: "Tâches pigmentaires",
+        description: " ",
         dropdown: true,
         collapse: [
           {
@@ -190,8 +190,8 @@ const routes = [
         ],
       },
       {
-        name: "elements",
-        description: "See all 32 examples",
+        name: "Lésions vasculaires",
+        description: " ",
         dropdown: true,
         collapse: [
           {
@@ -239,13 +239,25 @@ const routes = [
     ],
   },
   {
-    name: "docs",
+    name: "Traitements",
     icon: <Icon>article</Icon>,
     collapse: [
       {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
+        name: "Par zone",
+        description: " ",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Visage",
+            route: "/sections/navigation/navbars",
+            component: <Navbars />,
+          },
+          {
+            name: "Corps",
+            route: "/sections/navigation/nav-tabs",
+            component: <NavTabs />,
+          },
+        ],
       },
       {
         name: "foundation",
@@ -265,9 +277,9 @@ const routes = [
     ],
   },
   {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
+    name: "Contacts",
+    route: "/sections/navigation/contactus",
+    component: <ContactUs />,
   },
 ];
 
