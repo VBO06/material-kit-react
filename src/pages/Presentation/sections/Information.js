@@ -117,11 +117,8 @@ function Information() {
                 <DefaultInfoCard
                   icon="content_copy"
                   title="DES MÉTHODES DE SOIN MÉTICULEUSEMENT CHOISIES"
-                  description="les moins invasives possibles
--          avec le moins de risques d’effets indésirables
--          qui nécessitent si nécessaire un temps d’éviction sociale le plus minime
-·         Des appareils récents à usage médical qui garantissent efficacité et sécurité
-·         Un recours aux injections d’acide hyaluronique, de botox et de stimulants cutanés injectables qui se voudra mesurer quand nécessaire
+                  description="Ont sélectionnées les moins invasives possibles avec le moins de risques d’effets indésirables qui nécessitent si nécessaire un temps d’éviction sociale le plus minime grâce à des appareils récents à usage médical qui garantissent efficacité et sécurité.
+Le recours aux injections d’acide hyaluronique, de botox et de stimulants cutanés injectables qui se voudra mesurer quand nécessaire
 "
                 />
               </Grid>
