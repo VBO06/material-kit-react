@@ -25,6 +25,7 @@ import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 import image from "../../../assets/images/beaute.jpg";
 import natural from "../../../assets/images/natural-young-woman-portrait.jpg";
 import young from "../../../assets/images/young-beautiful-model-posing.jpg";
+import cute from "../../../assets/images/cute-girl-have-rest-summer-park.jpg";
 
 function Information() {
   return (
@@ -152,7 +153,7 @@ function Information() {
             </Grid>
           </Grid>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <img src={young} alt="Descriptive alt text" style={{ width: "100%", height: "auto" }} />
+            <img src={cute} alt="Descriptive alt text" style={{ width: "100%", height: "auto" }} />
           </Grid>
         </Grid>
       </Container>
