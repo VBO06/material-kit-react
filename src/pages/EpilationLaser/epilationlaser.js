@@ -36,7 +36,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/epilationLaser.jpg";
+import bgImage from "assets/images/female-feet-white-shoes-green-grass.jpg";
 import EpilationLaserContent from "./epilationlaserContent";
 
 function EpilationLaser() {

@@ -67,6 +67,8 @@ import Typography from "layouts/sections/elements/typography";
 import Presentation from "layouts/pages/presentation";
 import Team from "pages/Team";
 import EpilationLaser from "./pages/EpilationLaser/epilationlaser";
+import LesionsVasculairesPage from "./pages/LesionsVasculaires";
+import TachesPigmentairesPage from "./pages/TachesPigmentataires";
 
 const routes = [
   {
@@ -102,10 +104,14 @@ const routes = [
       {
         name: "Tâches pigmentaires",
         description: " ",
+        route: "/tachespigmentaires",
+        component: <TachesPigmentairesPage />,
       },
       {
         name: "Lésions vasculaires",
         description: " ",
+        route: "/lesionsvasculaires",
+        component: <LesionsVasculairesPage />,
       },
       {
         name: "Acné",

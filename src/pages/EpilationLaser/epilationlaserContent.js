@@ -4,7 +4,6 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
 import DefaultInfoCard from "../../examples/Cards/InfoCards/DefaultInfoCard";
 import woman from "../../assets/images/woman-legs-bathroom-after-hair-removal-laser-epilation-beauty-body-care-concept.jpg";
 
@@ -20,14 +19,6 @@ function EpilationLaserContent() {
       mx={-2}
     >
       <Container>
-        <Grid container>
-          <Grid item xs={12} md={8} sx={{ mb: 6 }}>
-            <MKTypography variant="h3" color="dark">
-              Epilation Laser
-            </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}></MKTypography>
-          </Grid>
-        </Grid>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto", mb: 8 }}>
           <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
             <Grid container spacing={3}>
