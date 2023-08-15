@@ -43,10 +43,7 @@ import Icon from "@mui/material/Icon";
 //import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
-import SignIn from "layouts/pages/authentication/sign-in";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -67,48 +64,57 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
+import Presentation from "layouts/pages/presentation";
+import Team from "pages/Team";
+import EpilationLaser from "./pages/EpilationLaser/epilationlaser";
 
 const routes = [
   {
-    name: "pages",
+    name: "accueil",
     icon: <Icon>dashboard</Icon>,
-    columns: 1,
-    rowsPerColumn: 2,
+    route: "/accueil",
+    component: <Presentation />,
+  },
+  {
+    name: "L'équipe",
+    icon: <Icon>view_day</Icon>,
+    route: "/team",
+    component: <Team />,
+  },
+  {
+    name: "Traitements",
+    icon: <Icon>article</Icon>,
     collapse: [
       {
-        name: "landing pages",
-        collapse: [
-          {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
-        ],
+        name: "Epilation laser",
+        description: " ",
+        route: "/epilationlaser",
+        component: <EpilationLaser />,
       },
       {
-        name: "account",
-        collapse: [
-          {
-            name: "sign in",
-            route: "/pages/authentication/sign-in",
-            component: <SignIn />,
-          },
-        ],
+        name: "Rides / Relâchement cutané",
+        description: " ",
+      },
+      {
+        name: "Silhouette / Cellulite",
+        description: " ",
+      },
+      {
+        name: "Tâches pigmentaires",
+        description: " ",
+      },
+      {
+        name: "Lésions vasculaires",
+        description: " ",
+      },
+      {
+        name: "Acné",
+        description: " ",
       },
     ],
   },
   {
-    name: "Forfaits",
+    name: "Tarifs",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
@@ -235,44 +241,6 @@ const routes = [
             component: <Typography />,
           },
         ],
-      },
-    ],
-  },
-  {
-    name: "Traitements",
-    icon: <Icon>article</Icon>,
-    collapse: [
-      {
-        name: "Par zone",
-        description: " ",
-        dropdown: true,
-        collapse: [
-          {
-            name: "Visage",
-            route: "/sections/navigation/navbars",
-            component: <Navbars />,
-          },
-          {
-            name: "Corps",
-            route: "/sections/navigation/nav-tabs",
-            component: <NavTabs />,
-          },
-        ],
-      },
-      {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
-      },
-      {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-      },
-      {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
       },
     ],
   },

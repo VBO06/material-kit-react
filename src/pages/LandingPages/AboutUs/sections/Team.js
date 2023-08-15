@@ -28,14 +28,13 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 import team1 from "assets/images/team-5.jpg";
 import team2 from "assets/images/bruce-mars.jpg";
 import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
 
 function Team() {
   return (
     <MKBox
       component="section"
       variant="gradient"
-      bgColor="dark"
+      bgColor="white"
       position="relative"
       py={6}
       px={{ xs: 2, lg: 0 }}
@@ -44,53 +43,44 @@ function Team() {
       <Container>
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
-            <MKTypography variant="h3" color="white">
-              The Executive Team
+            <MKTypography variant="h3" color="dark">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              L'équipe
             </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}>
-              There&apos;s nothing I really wanted to do in life that I wasn&apos;t able to get good
-              at. That&apos;s my skill.
-            </MKTypography>
+            <MKTypography variant="body2" color="white" opacity={0.8}></MKTypography>
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12}>
+            {/* Premier Grid item */}
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team1}
-                name="Emma Roberts"
-                position={{ color: "info", label: "UI Designer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="SALAMBERE ASMAO"
+                position={{ color: "dark", label: "Docteur en médecine" }}
+                description="Médecin généraliste titulaire du diplôme interuniversitaire du Médecine Morphologique et Anti Age de l’Université de Paris Cité. Je vous reçois en consultation pour une écoute et une évaluation de vos besoins et vous proposer un programme de soins sur mesure."
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12}>
+            {/* Deuxième Grid item */}
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team2}
-                name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="LABOURDETTE AURÉLIE"
+                position={{ color: "info", label: "Infirmière" }}
+                description="Infirmière diplômée d’état qui m’assiste pour les soins. Ayant travaillé en dermatologie au CHU de Nice puis en service de chirurgie esthétique en clinique privée dans les Alpes Maritimes elle sait vous accompagner dans votre prise en charge."
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          <Grid item xs={12}>
+            {/* Troisième Grid item */}
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3}
-                name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
-              <HorizontalTeamCard
-                image={team4}
-                name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                name="PIANESE GIULIA"
+                position={{ color: "info", label: "Sécrétaire médicale" }}
+                description="Secrétaire médicale qui s’occupe entre autres de la planification des rendez-vous et qui répond à vos questions."
               />
             </MKBox>
           </Grid>
