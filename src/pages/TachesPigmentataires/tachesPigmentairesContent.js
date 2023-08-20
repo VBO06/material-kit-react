@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import DefaultInfoCard from "../../examples/Cards/InfoCards/DefaultInfoCard";
-import age from "../../assets/images/age-spots-hands-asian-elder-man.jpg";
+import age from "../../assets/images/menopausal-women-worry-about-melasma-face.jpg";
 
 function TachesPigmentairesContent() {
   return (
@@ -39,14 +39,14 @@ function TachesPigmentairesContent() {
                         profondeur, sa superficie, son intensité, de la carnation à traiter, des
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         autres lésions associées etc. Il pourra s'agir de peeling plus ou moins
-                        profond et/ou de la technologie DPL.
+                        profond et/ou de la technologie IPL.
                       </p>
                       <br></br>
                       <p>
                         Le peeling entraîne une desquamation douce de la ou les couche(s) la ou les
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         plus superficielle(s) de la peau afin d'obtenir une peau plus uniforme avec
-                        un grain de peau affiné. La technologie DPL elle envoie une onde qui cible
+                        un grain de peau affiné. La technologie IPL elle envoie une onde qui cible
                         la mélanine accumulée des tâches et la détruit sans douleur ni dommage pour
                         la peau.
                       </p>

@@ -36,7 +36,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/female-feet-white-shoes-green-grass.jpg";
+import bgImage from "assets/images/collection-highquality-beige-leather-swatches-various-shades-showcasing-their-natural-elegance-versatility-color-trends-interior-design-fashion-neutral-palette.jpg";
 import TachesPigmentairesContent from "./tachesPigmentairesContent";
 
 function TachesPigmentaires() {

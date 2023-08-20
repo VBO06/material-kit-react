@@ -69,6 +69,9 @@ import Team from "pages/Team";
 import EpilationLaser from "./pages/EpilationLaser/epilationlaser";
 import LesionsVasculairesPage from "./pages/LesionsVasculaires";
 import TachesPigmentairesPage from "./pages/TachesPigmentataires";
+import AcnePage from "./pages/Acne";
+import SilhouetteCellulitePage from "./pages/SilhouetteCellulite";
+import RidesRelachementCutanePage from "./pages/RidesRelachementCutane";
 
 const routes = [
   {
@@ -96,10 +99,14 @@ const routes = [
       {
         name: "Rides / Relâchement cutané",
         description: " ",
+        route: "/ridesRelachementCutane",
+        component: <RidesRelachementCutanePage />,
       },
       {
         name: "Silhouette / Cellulite",
         description: " ",
+        route: "/silhouetteCellulite",
+        component: <SilhouetteCellulitePage />,
       },
       {
         name: "Tâches pigmentaires",
@@ -116,6 +123,8 @@ const routes = [
       {
         name: "Acné",
         description: " ",
+        route: "/acne",
+        component: <AcnePage />,
       },
     ],
   },
