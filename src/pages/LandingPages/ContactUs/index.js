@@ -29,7 +29,9 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/beautiful-fresh-girl-with-perfect-skin-natural-makeup-green-leaves-beauty-face-photo-taken-studio.jpg";
+import addressIcon from "assets/images/icons/placeholder_738521.png";
+import emailIcon from "assets/images/icons/email_482138.png";
 
 function ContactUs() {
   return (
@@ -46,7 +48,11 @@ function ContactUs() {
             borderRadius="lg"
             ml={2}
             mt={2}
-            sx={{ backgroundImage: `url(${bgImage})` }}
+            sx={{
+              backgroundImage: `url(${bgImage})`,
+              backgroundSize: "cover", // Adjust the background size
+              backgroundPosition: "center", // Adjust the background position
+            }}
           />
         </Grid>
         <Grid
@@ -72,7 +78,7 @@ function ContactUs() {
           >
             <MKBox
               variant="gradient"
-              bgColor="info"
+              bgColor="success"
               coloredShadow="info"
               borderRadius="lg"
               p={2}
@@ -85,7 +91,29 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                medazuresthetique@gmail.com
+                <p>
+                  <b>
+                    <img
+                      src={addressIcon}
+                      alt="Adresse"
+                      style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                    />{" "}
+                    Adresse :{" "}
+                  </b>{" "}
+                  650 avenue du Général de Gaulle 06700 Saint Laurent du Var
+                </p>
+                <br />
+                <p>
+                  <b>
+                    <img
+                      src={emailIcon}
+                      alt="Email"
+                      style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                    />{" "}
+                    Email :{" "}
+                  </b>{" "}
+                  medazuresthetique@gmail.com
+                </p>
               </MKTypography>
             </MKBox>
           </MKBox>
