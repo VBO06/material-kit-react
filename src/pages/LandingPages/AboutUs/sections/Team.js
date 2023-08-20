@@ -25,8 +25,8 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
+import aurelie from "assets/images/identity/IMG-20230816-WA0002.jpg";
+import giulia from "assets/images/identity/IMG-20230820-WA0000.jpg";
 import team3 from "assets/images/ivana-squares.jpg";
 
 function Team() {
@@ -55,7 +55,7 @@ function Team() {
             {/* Premier Grid item */}
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
+                image={team3}
                 name="SALAMBERE ASMAO"
                 position={{ color: "dark", label: "Docteur en médecine" }}
                 description="Médecin généraliste titulaire du diplôme interuniversitaire du Médecine Morphologique et Anti Age de l’Université de Paris Cité. Je vous reçois en consultation pour une écoute et une évaluation de vos besoins et vous proposer un programme de soins sur mesure."
@@ -66,7 +66,7 @@ function Team() {
             {/* Deuxième Grid item */}
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2}
+                image={aurelie}
                 name="LABOURDETTE AURÉLIE"
                 position={{ color: "info", label: "Infirmière" }}
                 description="Infirmière diplômée d’état qui m’assiste pour les soins. Ayant travaillé en dermatologie au CHU de Nice puis en service de chirurgie esthétique en clinique privée dans les Alpes Maritimes elle sait vous accompagner dans votre prise en charge."
@@ -77,7 +77,7 @@ function Team() {
             {/* Troisième Grid item */}
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3}
+                image={giulia}
                 name="PIANESE GIULIA"
                 position={{ color: "info", label: "Sécrétaire médicale" }}
                 description="Secrétaire médicale qui s’occupe entre autres de la planification des rendez-vous et qui répond à vos questions."
