@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import aurelie from "assets/images/identity/IMG-20230816-WA0002.jpg";
 import giulia from "assets/images/identity/IMG-20230820-WA0000.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
+import team3 from "assets/images/woman-working-as-doctor.jpg";
 
 function Team() {
   return (
