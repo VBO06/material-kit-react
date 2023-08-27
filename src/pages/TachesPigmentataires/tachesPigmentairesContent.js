@@ -31,7 +31,8 @@ function TachesPigmentairesContent() {
                       <p>
                         Les lésions pigmentaires sont souvent bénignes mais inesthétiques.
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        L'exposition solaire en est souvent à l'origine comme les lentigos présents
+                        L'exposition solaire en est souvent à l'origine comme les lentigos
+                        présents&nbsp;
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         sur le visage et les mains appelées plus simplement "tâches de vieillesse".
                         Les tâches pigmentaires sont une accumulation de mélanine, pigment naturel
