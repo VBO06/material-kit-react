@@ -1,14 +1,13 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
 import logoCT from "assets/images/logo-ct-dark.png";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LogoDoctolib from "assets/images/icone-doctolib.png";
 
 const date = new Date().getFullYear();
 
@@ -21,19 +20,17 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "",
     },
     {
-      icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      icon: <InstagramIcon />,
+      link: "https://instagram.com/medazuresthetique?igshid=MzRlODBiNWFlZA==",
     },
     {
-      icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      icon: (
+        <img src={LogoDoctolib} alt="Doctolib Icon" style={{ width: "20px", height: "20px" }} />
+      ),
+      link: "https://www.doctolib.fr/medecin-generaliste/vence/asmao-salambere",
     },
   ],
   menus: [
@@ -72,6 +69,11 @@ export default {
       ],
     },
   ],
+  address: (
+    <MKTypography variant="button" fontWeight="regular">
+      <b>Adresse : 650 avenue du Général de Gaulle 06700 Saint Laurent du Var</b>
+    </MKTypography>
+  ),
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
       All rights reserved. Copyright &copy; {date} by{" "}

@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import DefaultInfoCard from "../../examples/Cards/InfoCards/DefaultInfoCard";
-import stretch from "../../assets/images/elder-woman-using-injection-her-eye-wrinkles.jpg";
+import stretch from "../../assets/images/before-after-portrait-mature-woman-retouched.jpg";
 
 function RidesRelachementCutaneContent() {
   return (

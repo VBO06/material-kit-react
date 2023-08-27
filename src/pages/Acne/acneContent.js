@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import DefaultInfoCard from "../../examples/Cards/InfoCards/DefaultInfoCard";
-import age from "../../assets/images/red-rash-young-woman-face-itchy-allergic-skin-problems-dermatitis.jpg";
+import age from "../../assets/images/side-view-man-with-skin-problems.jpg";
 
 function AcneContent() {
   return (
