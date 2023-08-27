@@ -32,6 +32,7 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/beautiful-fresh-girl-with-perfect-skin-natural-makeup-green-leaves-beauty-face-photo-taken-studio.jpg";
 import addressIcon from "assets/images/icons/placeholder_738521.png";
 import emailIcon from "assets/images/icons/email_482138.png";
+import LogoDoctolib from "../../../assets/images/icone-doctolib.png";
 
 function ContactUs() {
   return (
@@ -113,6 +114,28 @@ function ContactUs() {
                     Email :{" "}
                   </b>{" "}
                   medazuresthetique@gmail.com
+                </p>
+                <br />
+                <p>
+                  <b>
+                    <img
+                      src={emailIcon}
+                      alt="Email"
+                      style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                    />{" "}
+                    Prendre rendez vous sur Doctolib :{" "}
+                  </b>{" "}
+                  <a
+                    href="https://www.doctolib.fr/medecin-generaliste/vence/asmao-salambere"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={LogoDoctolib}
+                      alt="Doctolib Icon"
+                      style={{ width: "20px", height: "20px" }}
+                    />
+                  </a>
                 </p>
               </MKTypography>
             </MKBox>
