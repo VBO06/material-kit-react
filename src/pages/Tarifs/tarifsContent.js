@@ -46,6 +46,22 @@ function TarifsContent() {
     "Epilation pour le corps entier",
   ];
 
+  const treatments = [
+    "VISAGE ENTIER",
+    "VISAGE + COU",
+    "RELACHEMENT CUTANE PAR ZONE",
+    "ACNE",
+    "AMAS GRAISSEUX/CELLULITE",
+  ];
+
+  const treatmentValues = [
+    [1000, null],
+    [1500, null],
+    [1000, null],
+    [1000, null],
+    [null, 3000],
+  ];
+
   const malePrices = [
     [500, 50, 60],
     [1250, 125, 150],
@@ -64,8 +80,13 @@ function TarifsContent() {
   return (
     <div>
       <div className="app">
+        <div className="title-container">
+          <h1 className="main-title">Tarifs des Traitements</h1>
+          <p className="sub-title">(Paiements des forfaits en plusieurs fois possibles)</p>
+        </div>
         <div className="table-container">
-          <h4>Tableau Femme</h4>
+          <h4>TARIFS EPILATION FEMME</h4>
+          <br />
           <table className="custom-table">
             <thead>
               <tr>
@@ -86,11 +107,17 @@ function TarifsContent() {
               ))}
             </tbody>
           </table>
+          <p className="ps-note">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            PS : Si les résultats sont obtenus avant l'épuisement des 8 séances du forfait, les non
+            réalisées seront remboursées.
+          </p>
         </div>
       </div>
       <div className="app">
         <div className="table-container">
-          <h4>Tableau Homme</h4>
+          <h4>TARIFS EPILATION HOMME</h4>
+          <br />
           <table className="custom-table">
             <thead>
               <tr>
@@ -111,6 +138,68 @@ function TarifsContent() {
               ))}
             </tbody>
           </table>
+          <p className="ps-note">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            PS : Si les résultats sont obtenus avant l'épuisement des 8 séances du forfait, les
+            séances non réalisées seront remboursées.
+          </p>
+        </div>
+      </div>
+      <div className="app">
+        <div className="table-container">
+          <h4>RADIOFREQUENCE POUR RIDES/RIDULES/AMAS GRAISSEUX/EPILATION/RELACHEMENT CUTANE</h4>
+          <br />
+          <table className="custom-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Mon forfait pour 4 séances</th>
+                <th>Mon forfait pour 8 séances</th>
+              </tr>
+            </thead>
+            <tbody>
+              {treatments.map((treatment, index) => (
+                <tr key={index}>
+                  <td>{treatment}</td>
+                  <td>
+                    {treatmentValues[index][0] !== null ? `${treatmentValues[index][0]} €` : ""}
+                  </td>
+                  <td>
+                    {treatmentValues[index][1] !== null ? `${treatmentValues[index][1]} €` : ""}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <br />
+          <br />
+          <p className="ps-note">
+            <b>LESIONS VASCULAIRES(IPL) = 150 euros la séance</b>
+          </p>
+          <br />
+          <p className="ps-note">
+            <b>LESIONS PIGMENTAIRES(IPL) = 150 euros la séance</b>
+          </p>
+          <br />
+          <p className="ps-note">
+            <b>PEELINGS</b>
+          </p>
+          <p className="ps-note">
+            <b>PEELING SUPERFICIEL = 100 euros la séance</b>
+          </p>
+          <p className="ps-note">
+            <b>PEELING MOYEN = 150 euros la séance</b>
+          </p>
+          <br />
+          <p className="ps-note">
+            <b>PRODUITS INJECTABLES</b>
+          </p>
+          <p className="ps-note">
+            <b>ACIDE HYALURONIQUE : 300 euros la seringue</b>
+          </p>
+          <p className="ps-note">
+            <b>BOTOX : 300 euros</b>
+          </p>
         </div>
       </div>
     </div>

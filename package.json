@@ -1,11 +1,11 @@
 {
-  "name": "medazur-esthetique",
+  "name": "natureaesthetique",
   "version": "2.1.0",
   "private": true,
   "author": "Vincent Castellani",
   "license": "See license in https://www.creative-tim.com/license",
-  "description": "Medazur Esthetique",
-  "homepage": "https://www.medazuresthetique.com",
+  "description": "Naturea Esthetique",
+  "homepage": "https://www.natureaesthetique.com",
   "bugs": {
     "url": "git@github.com:VBO06/material-kit-react.git"
   },

@@ -85,7 +85,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        MEDAZUR ESTHETIQUE
+        NATUREA ESTHETIQUE
       </MKTypography>
       .
     </MKTypography>

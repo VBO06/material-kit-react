@@ -113,7 +113,7 @@ function ContactUs() {
                     />{" "}
                     Email :{" "}
                   </b>{" "}
-                  medazuresthetique@gmail.com
+                  natureaesthetique@gmail.com
                 </p>
                 <br />
                 <p>

@@ -84,7 +84,7 @@ function Acne() {
                 },
               })}
             >
-              <LogoText text="MEDAZUR ESTHETIQUE" colorStart="#ffffff" colorEnd="#ffffff" />
+              <LogoText text="NATUREA ESTHETIQUE" colorStart="#ffffff" colorEnd="#ffffff" />
             </MKTypography>
             <MKTypography
               variant="body1"
