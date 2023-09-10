@@ -195,10 +195,10 @@ function TarifsContent() {
             <b>PRODUITS INJECTABLES</b>
           </p>
           <p className="ps-note">
-            <b>ACIDE HYALURONIQUE : 300 euros la seringue</b>
+            <b>ACIDE HYALURONIQUE : à partir de 300 euros</b>
           </p>
           <p className="ps-note">
-            <b>BOTOX : 300 euros</b>
+            <b>BOTOX : à partir de 300 euros</b>
           </p>
         </div>
       </div>

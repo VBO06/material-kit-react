@@ -58,7 +58,7 @@ function Team() {
                 image={asmao}
                 name="SALAMBERE ASMAO"
                 position={{ color: "dark", label: "Docteur en médecine" }}
-                description="Médecin généraliste titulaire du diplôme interuniversitaire du Médecine Morphologique et Anti Age de l’Université de Paris Cité. Je vous reçois en consultation pour une écoute et une évaluation de vos besoins et vous proposer un programme de soins sur mesure."
+                description="Médecin généraliste titulaire du diplôme interuniversitaire de Médecine Morphologique et Anti Age de l’Université de Paris Cité. Je vous reçois en consultation pour une écoute et une évaluation de vos besoins et vous proposer un programme de soins sur mesure."
               />
             </MKBox>
           </Grid>
