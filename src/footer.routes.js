@@ -13,7 +13,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "MEDAZUR ESTHETIQUE",
+    name: "NATUREA ESTHETIQUE",
     image: logoCT,
     route: "/",
   },
