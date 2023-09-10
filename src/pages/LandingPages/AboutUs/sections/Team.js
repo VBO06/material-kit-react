@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import aurelie from "assets/images/identity/IMG-20230816-WA0002.jpg";
 import giulia from "assets/images/identity/IMG-20230820-WA0000.jpg";
-import team3 from "assets/images/portrait-friendly-doctor-isolated-gray.jpg";
+import asmao from "assets/images/identity/IMG_20230910_190520.jpg";
 
 function Team() {
   return (
@@ -55,7 +55,7 @@ function Team() {
             {/* Premier Grid item */}
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team3}
+                image={asmao}
                 name="SALAMBERE ASMAO"
                 position={{ color: "dark", label: "Docteur en médecine" }}
                 description="Médecin généraliste titulaire du diplôme interuniversitaire du Médecine Morphologique et Anti Age de l’Université de Paris Cité. Je vous reçois en consultation pour une écoute et une évaluation de vos besoins et vous proposer un programme de soins sur mesure."
