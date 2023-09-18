@@ -77,6 +77,20 @@ function RidesRelachementCutaneContent() {
                         uniforme et un grain de peau affiné
                       </p>
                       <br></br>
+                      <p>
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        Le micro needling médical consiste à créer des micro perforations à l'aide
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        d'un stylo électrique muni de micro-aiguilles, très fines et de taille
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        variable (jusqu'à 2.5mm pour le micro needling médical). Ces micro
+                        perforations stimulent mécaniquement et redensifient la peau en relançant la
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        production d'élastine et de collagène. En parallèle ces micro-canaux créés
+                        permettent la pénétration de principes actifs anti-âge (vitamines, acide
+                        hyaluronique etc) appliqués sur la peau pendant le soin.
+                      </p>
+                      <br></br>
                     </div>
                   }
                 />

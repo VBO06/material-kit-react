@@ -90,8 +90,8 @@ function Information() {
                       </p>
                       <br></br>
                       <p>
-                        <b>UNE PRISE EN CHARGE SUR MESURE</b> : un programme de soin personnalisé
-                        pouvant cumuler différents soins de médecine esthétique sera proposé.
+                        <b>UNE PRISE EN CHARGE SUR MESURE</b> : un programme de soins personnalisé
+                        sera proposé.
                       </p>
                     </div>
                   }
@@ -117,9 +117,7 @@ function Information() {
                 <DefaultInfoCard
                   icon="content_copy"
                   title="DES MÉTHODES DE SOIN MÉTICULEUSEMENT CHOISIES"
-                  description="Ont sélectionnées les moins invasives possibles avec le moins de risques d’effets indésirables qui nécessitent si nécessaire un temps d’éviction sociale le plus minime grâce à des appareils récents à usage médical qui garantissent efficacité et sécurité.
-Le recours aux injections d’acide hyaluronique, de botox et de stimulants cutanés injectables qui se voudra mesurer quand nécessaire
-"
+                  description="Les méthodes sélectionnées sont les moins invasives possibles avec un temps d'éviction sociale minime et un risque d'effets indésirables limité. Pour ce faire, les dispositifs médicaux utilisés sont récents, marqués &quot;CE&quot; et garantissent efficacité et sécurité. Le recours aux produits injectables se voudra mesuré et réduit au nécessaire pour un résultat naturel."
                 />
               </Grid>
             </Grid>

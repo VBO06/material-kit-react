@@ -32,6 +32,8 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/beautiful-fresh-girl-with-perfect-skin-natural-makeup-green-leaves-beauty-face-photo-taken-studio.jpg";
 import addressIcon from "assets/images/icons/placeholder_738521.png";
 import emailIcon from "assets/images/icons/email_482138.png";
+import scheduleIcon from "assets/images/icons/schedule_6919424.png";
+import phoneIcon from "assets/images/icons/telephone_159844.png";
 import LogoDoctolib from "../../../assets/images/icone-doctolib.png";
 
 function ContactUs() {
@@ -119,8 +121,8 @@ function ContactUs() {
                 <p>
                   <b>
                     <img
-                      src={emailIcon}
-                      alt="Email"
+                      src={scheduleIcon}
+                      alt="Rendez-vous"
                       style={{ width: "20px", height: "20px", marginRight: "5px" }}
                     />{" "}
                     Prendre rendez vous sur Doctolib :{" "}
@@ -136,6 +138,18 @@ function ContactUs() {
                       style={{ width: "20px", height: "20px" }}
                     />
                   </a>
+                </p>
+                <br />
+                <p>
+                  <b>
+                    <img
+                      src={phoneIcon}
+                      alt="Téléphone"
+                      style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                    />{" "}
+                    Téléphone :{" "}
+                  </b>{" "}
+                  06 34 23 52 30
                 </p>
               </MKTypography>
             </MKBox>

@@ -81,8 +81,8 @@ function TarifsContent() {
     <div>
       <div className="app">
         <div className="title-container">
-          <h1 className="main-title">Tarifs des Traitements</h1>
-          <p className="sub-title">(Paiements des forfaits en plusieurs fois possibles)</p>
+          <h1 className="main-title"></h1>
+          <p className="sub-title">Paiement des forfaits en plusieurs fois possible</p>
         </div>
         <div className="table-container">
           <h4>TARIFS EPILATION FEMME</h4>
@@ -192,13 +192,7 @@ function TarifsContent() {
           </p>
           <br />
           <p className="ps-note">
-            <b>PRODUITS INJECTABLES</b>
-          </p>
-          <p className="ps-note">
-            <b>ACIDE HYALURONIQUE : à partir de 300 euros</b>
-          </p>
-          <p className="ps-note">
-            <b>BOTOX : à partir de 300 euros</b>
+            <b>PRODUITS INJECTABLES SUR DEVIS (À PARTIR DE 300 EUROS)</b>
           </p>
         </div>
       </div>

@@ -67,7 +67,7 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={aurelie}
-                name="LABOURDETTE AURÉLIE"
+                name="AURÉLIE"
                 position={{ color: "info", label: "Infirmière" }}
                 description="Infirmière diplômée d’état qui m’assiste pour les soins. Ayant travaillé en dermatologie au CHU de Nice puis en service de chirurgie esthétique en clinique privée dans les Alpes Maritimes elle sait vous accompagner dans votre prise en charge."
               />
@@ -78,7 +78,7 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={giulia}
-                name="PIANESE GIULIA"
+                name="GIULIA"
                 position={{ color: "info", label: "Sécrétaire médicale" }}
                 description="Secrétaire médicale qui s’occupe entre autres de la planification des rendez-vous et qui répond à vos questions."
               />
