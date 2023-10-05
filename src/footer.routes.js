@@ -1,6 +1,3 @@
-// @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
-
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
@@ -19,12 +16,8 @@ export default {
   },
   socials: [
     {
-      icon: <FacebookIcon />,
-      link: "",
-    },
-    {
       icon: <InstagramIcon />,
-      link: "https://instagram.com/medazuresthetique?igshid=MzRlODBiNWFlZA==",
+      link: "https://instagram.com/natureaesthetique?igshid=OGQ5ZDc2ODk2ZA==",
     },
     {
       icon: (

@@ -53,7 +53,7 @@ function Information() {
               <Grid item xs={12} md={12}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="MEDAZUR ESTHÉTIQUE C'EST :"
+                  title="NATUREA ESTHÉTIQUE C'EST :"
                   description={
                     <div style={{ textAlign: "left" }}>
                       <p>

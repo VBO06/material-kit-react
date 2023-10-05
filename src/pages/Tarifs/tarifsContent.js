@@ -3,35 +3,33 @@ import "./tarifsContent.css";
 function TarifsContent() {
   const femaleTreatments = [
     "Aisselles",
-    "Maillot intégral",
-    "Membres inférieurs",
-    "Membres inférieurs & Maillot",
-    "Membres supérieurs",
-    "Membres supérieurs & Aisselles",
-    "Membres inférieurs & Maillot & Aisselles",
-    "Membres supérieurs et inférieurs & Maillot & Aisselles",
+    "Maillot intégral + sillon",
+    "Demi-jambe",
+    "Demi-jambe + maillot",
+    "Avant bras",
+    "Avant bras + aisselles",
+    "Demi-jambe & maillot & aisselles",
+    "Avant bras et demi-jambe & maillot & aisselles",
     "Visage & Cou",
-    "Face ventrale tronc",
-    "Face dorsale tronc",
-    "Epilation pour le corps entier",
+    "Torse et ventre",
+    "Dos",
   ];
 
   const femalePrices = [
-    [400, 50, 60],
-    [800, 100, 120],
-    [1600, 200, 240],
-    [2400, 300, 360],
-    [800, 100, 120],
-    [1200, 150, 180],
-    [2800, 350, 420],
-    [3600, 450, 540],
-    [800, 100, 120],
-    [800, 100, 120],
-    [800, 100, 120],
-    [5000, 625, 750],
+    [50, 60, 300],
+    [100, 120, 600],
+    [100, 120, 600],
+    [150, 180, 800],
+    [100, 120, 600],
+    [150, 180, 800],
+    [175, 240, 1050],
+    [250, 350, 1500],
+    [50, 60, 300],
+    [100, 120, 600],
+    [100, 120, 600],
   ];
 
-  const maleTreatments = [
+  /*const maleTreatments = [
     "Aisselles",
     "Maillot intégral & Fesses",
     "Membres inférieurs",
@@ -44,13 +42,13 @@ function TarifsContent() {
     "Face ventrale tronc",
     "Face dorsale tronc",
     "Epilation pour le corps entier",
-  ];
+  ];*/
 
-  const treatments = [
+  /*const treatments = [
     "VISAGE ENTIER",
     "VISAGE + COU",
     "RELACHEMENT CUTANE PAR ZONE",
-    "ACNE",
+    "CICATRICES D'ACNE",
     "AMAS GRAISSEUX/CELLULITE",
   ];
 
@@ -60,9 +58,9 @@ function TarifsContent() {
     [1000, null],
     [1000, null],
     [null, 3000],
-  ];
+  ];*/
 
-  const malePrices = [
+  /*const malePrices = [
     [500, 50, 60],
     [1250, 125, 150],
     [2500, 250, 300],
@@ -75,7 +73,7 @@ function TarifsContent() {
     [1500, 150, 180],
     [1500, 150, 180],
     [7000, 700, 1000],
-  ];
+  ];*/
 
   return (
     <div>
@@ -83,17 +81,26 @@ function TarifsContent() {
         <div className="title-container">
           <h1 className="main-title"></h1>
           <p className="sub-title">Paiement des forfaits en plusieurs fois possible</p>
+          <br />
+          <p className="sub-title">
+            <b>
+              <u>
+                OFFRE DE LANCEMENT POUR LE MOIS OCTOBRE : FORFAIT EPILATION AISSELLES (6 SEANCES) A
+                100 EUROS !
+              </u>
+            </b>
+          </p>
         </div>
         <div className="table-container">
-          <h4>TARIFS EPILATION FEMME</h4>
+          <h4>TARIFS EPILATION HOMMES ET FEMMES</h4>
           <br />
           <table className="custom-table">
             <thead>
               <tr>
                 <th>Traitement</th>
-                <th>Mon forfait pour 8 séances</th>
-                <th>Mon prix par séance en forfait</th>
-                <th>Mon prix par séance HORS forfait</th>
+                <th>Prix par séance en forfait</th>
+                <th>Prix par séance HORS forfait</th>
+                <th>Mon forfait pour 6 séances</th>
               </tr>
             </thead>
             <tbody>
@@ -107,71 +114,17 @@ function TarifsContent() {
               ))}
             </tbody>
           </table>
-          <p className="ps-note">
-            {/* eslint-disable-next-line react/no-unescaped-entities */}
-            PS : Si les résultats sont obtenus avant l'épuisement des 8 séances du forfait, les non
-            réalisées seront remboursées.
-          </p>
-        </div>
-      </div>
-      <div className="app">
-        <div className="table-container">
-          <h4>TARIFS EPILATION HOMME</h4>
-          <br />
-          <table className="custom-table">
-            <thead>
-              <tr>
-                <th>Traitement</th>
-                <th>Mon forfait pour 10 séances</th>
-                <th>Mon prix par séance en forfait</th>
-                <th>Mon prix par séance HORS forfait</th>
-              </tr>
-            </thead>
-            <tbody>
-              {maleTreatments.map((treatment, index) => (
-                <tr key={index}>
-                  <td>{treatment}</td>
-                  <td>{malePrices[index][0]} €</td>
-                  <td>{malePrices[index][1]} €</td>
-                  <td>{malePrices[index][2]} €</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <p className="ps-note">
-            {/* eslint-disable-next-line react/no-unescaped-entities */}
-            PS : Si les résultats sont obtenus avant l'épuisement des 8 séances du forfait, les
-            séances non réalisées seront remboursées.
-          </p>
         </div>
       </div>
       <div className="app">
         <div className="table-container">
           <h4>RADIOFREQUENCE POUR RIDES/RIDULES/AMAS GRAISSEUX/EPILATION/RELACHEMENT CUTANE</h4>
-          <br />
-          <table className="custom-table">
-            <thead>
-              <tr>
-                <th></th>
-                <th>Mon forfait pour 4 séances</th>
-                <th>Mon forfait pour 8 séances</th>
-              </tr>
-            </thead>
-            <tbody>
-              {treatments.map((treatment, index) => (
-                <tr key={index}>
-                  <td>{treatment}</td>
-                  <td>
-                    {treatmentValues[index][0] !== null ? `${treatmentValues[index][0]} €` : ""}
-                  </td>
-                  <td>
-                    {treatmentValues[index][1] !== null ? `${treatmentValues[index][1]} €` : ""}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <br />
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          <h4>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            Pour relâchement cutané, cicatrices d'acné, amas graisseux/cellulite : 250 euros la
+            séance
+          </h4>
           <br />
           <p className="ps-note">
             <b>LESIONS VASCULAIRES(IPL) = 150 euros la séance</b>
@@ -192,7 +145,7 @@ function TarifsContent() {
           </p>
           <br />
           <p className="ps-note">
-            <b>PRODUITS INJECTABLES SUR DEVIS (À PARTIR DE 300 EUROS)</b>
+            <b>PRODUITS INJECTABLES SUR DEVIS : À PARTIR DE 300 EUROS, PUIS TARIF DÉGRESSIF</b>
           </p>
         </div>
       </div>

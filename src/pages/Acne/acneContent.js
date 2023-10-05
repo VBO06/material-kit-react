@@ -50,7 +50,7 @@ function AcneContent() {
                       <br></br>
                       <p>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <b>Radiofréquence pour l'acné active et kystique</b>
+                        <b>Radiofréquence pour les cicatrices d'acné</b>
                       </p>
                       <br></br>
                       <p>
